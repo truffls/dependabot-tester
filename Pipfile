@@ -110,7 +110,7 @@ gender-guesser = "*"
 gspread = "*"
 django-simple-history = "*"
 # gdal 3.6.x for python 3.11 / debian bookworm (https://packages.debian.org/bookworm/python3-gdal)
-gdal = "~=3.6.2"
+gdal = "==3.6.4"
 slack_sdk = "*"
 playwright = "*"
 furl = "*"
