@@ -9,5 +9,3 @@ updates:
   allow:
     - dependency-type: direct
     - dependency-type: indirect
-  ignore:
-    - dependency-name: "gdal"
