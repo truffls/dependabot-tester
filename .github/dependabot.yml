@@ -11,4 +11,3 @@ updates:
     - dependency-type: indirect
   ignore:
     - dependency-name: "gdal"
-      versions: ["3.6.2"]
