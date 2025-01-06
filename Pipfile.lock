@@ -2432,12 +2432,12 @@
         },
         "model-bakery": {
             "hashes": [
-                "sha256:09ecbbf124d32614339581b642c82ac4a73147442f598c7bad23eece24187e5c",
-                "sha256:37cece544a33f8899ed8f0488cd6a9d2b0b6925e7b478a4ff2786dece8c63745"
+                "sha256:6b9dcdcdbbc65f6c1e0c61ebea173777020ddcdce52f3e21362ba7f6000f90fe",
+                "sha256:eb3b4301e6a5620dac9a16d5d586796869bda05b958a95239fbccf69e79c3831"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==1.19.5"
+            "version": "==1.20.1"
         },
         "monotonic": {
             "hashes": [
