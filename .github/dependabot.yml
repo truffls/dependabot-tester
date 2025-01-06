@@ -1,11 +1,12 @@
 version: 2
 updates:
-  - package-ecosystem: pip
-    directory: "/"
+  - package-ecosystem: "pip"
+    directory: "/" 
     schedule:
-      interval: daily
-      time: "07:00"
-    open-pull-requests-limit: 51
+      interval: "daily"
     allow:
-      - dependency-type: direct
-      - dependency-type: indirect
+      - dependency-type: "direct"
+      - dependency-type: "indirect"
+    ignore:
+      - dependency-name: "gdal"
+        versions: ["*"]
