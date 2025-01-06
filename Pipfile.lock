@@ -1152,12 +1152,12 @@
         },
         "django-mysql": {
             "hashes": [
-                "sha256:77cb615afb8f2a92636617d46dbe11b97b28e2b97d8373cf7752c3e1f2c619f1",
-                "sha256:c8ae4b8004bd2e1b74999f0254d255771043913273216a8514cf09aa4bd937bb"
+                "sha256:1ad136900a7eb528893f575c5733af176cea2649841f7686a91b7f315777e8f3",
+                "sha256:72dd1b468a3697efcede8f8b2659669a5e1f139123fd897452f4ac7f8cdcae00"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
-            "version": "==4.14.0"
+            "markers": "python_version >= '3.9'",
+            "version": "==4.15.0"
         },
         "django-nested-admin": {
             "hashes": [
