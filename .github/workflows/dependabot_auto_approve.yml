@@ -1,0 +1,18 @@
+# https://github.com/fastify/github-action-merge-dependabot?tab=readme-ov-file#approving-without-merging
+
+name: Dependabot auto-approve
+on: pull_request
+
+jobs:
+
+  automerge:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+    permissions:
+      pull-requests: write
+
+    steps:
+      - uses: fastify/github-action-merge-dependabot@v3
+        with:
+          approve-only: true
+          target: minor
