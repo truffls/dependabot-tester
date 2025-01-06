@@ -4,8 +4,10 @@ updates:
     directory: "/" 
     schedule:
       interval: "daily"
-    ignore:
-      - dependency-name: "gdal"
+      time: "10:00"
+    open-pull-requests-limit: 10
     allow:
       - dependency-type: "direct"
       - dependency-type: "indirect"
+    ignore:
+      - dependency-name: "gdal"
