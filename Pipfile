@@ -109,8 +109,6 @@ openpyxl = "*"
 gender-guesser = "*"
 gspread = "*"
 django-simple-history = "*"
-# gdal 3.6.x for python 3.11 / debian bookworm (https://packages.debian.org/bookworm/python3-gdal)
-gdal = "==3.6.2"
 slack_sdk = "*"
 playwright = "*"
 furl = "*"
@@ -133,6 +131,8 @@ fcm-django = "==2.2.0rc0"
 traitlets = "==5.9.0"
 pymupdf = "*"
 django-sql-utils = "*"
+# gdal 3.6.x for python 3.11 / debian bookworm (https://packages.debian.org/bookworm/python3-gdal)
+gdal = "==3.6.2"
 
 [dev-packages]
 jupyterlab = "*"
@@ -144,6 +144,3 @@ pyOpenSSL = "*"
 
 [requires]
 python_version = "3.11"
-
-[scripts]
-before_install = "sudo apt-get update && sudo apt-get install -y gdal-bin python3-gdal libgdal-dev && pipenv install"
