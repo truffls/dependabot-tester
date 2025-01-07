@@ -3832,11 +3832,12 @@
                 "all"
             ],
             "hashes": [
-                "sha256:9821caa9eca6062ff7299fa645e737aecff982e6b2b42046928a6413c8dabfd9",
-                "sha256:f6661dfc45e1d4f51fa8a6239f9c8349380859a5bfaa73280645f046d6c96e33"
+                "sha256:9a6930037cfe0f782377963ca3f2b1dae3fd4cdbf0883848f22f1447e7bb718b",
+                "sha256:f9db84ed398df5109bd69c11d46613d16cc572fb9ad3213f10d95e2b5f12c18e"
             ],
-            "markers": "python_version >= '3.8'",
-            "version": "==3.5.0"
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==3.7.0"
         },
         "tabulate": {
             "hashes": [
