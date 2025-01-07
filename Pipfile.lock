@@ -1229,11 +1229,12 @@
         },
         "django-tables2": {
             "hashes": [
-                "sha256:4113fcc575eb438a12e83a4d4ea01452e4800d970e8bdd0e4122ac171af1900d",
-                "sha256:99e06d966ca8ac69fd74092eb45c79a280dd5ca0ccb81395d96261f62128e1af"
+                "sha256:d9338937797207ffb6f481be2125c5ec3a0bb1858d409c672cc25fc5d654cb22",
+                "sha256:fb5dcaa09379cf3947598ec7e1bd5f26ed63aafdee3b23963446763bbeac37bf"
             ],
             "index": "pypi",
-            "version": "==2.7.0"
+            "markers": "python_version >= '3.9'",
+            "version": "==2.7.5"
         },
         "django-test-migrations": {
             "hashes": [
