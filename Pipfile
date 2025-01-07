@@ -131,8 +131,6 @@ fcm-django = "==2.2.0rc0"
 traitlets = "==5.9.0"
 pymupdf = "*"
 django-sql-utils = "*"
-# gdal 3.6.x for python 3.11 / debian bookworm (https://packages.debian.org/bookworm/python3-gdal)
-gdal = "==3.6.2"
 
 [dev-packages]
 jupyterlab = "*"
