@@ -1050,10 +1050,11 @@
         },
         "django-extra-views": {
             "hashes": [
-                "sha256:2b9daf99c79e91035aa3f269232afcb3ccf837f0f49f2dc6da6916fe34bc1e0a"
+                "sha256:610e6f24d4831cc065622420a6622c558b5b3fc4bc6797c3bbe0c3398e4995b8"
             ],
             "index": "pypi",
-            "version": "==0.14.0"
+            "markers": "python_version >= '3.5'",
+            "version": "==0.15.0"
         },
         "django-fancy-cache": {
             "hashes": [
