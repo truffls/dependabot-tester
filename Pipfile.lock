@@ -2980,11 +2980,11 @@
         },
         "posthog": {
             "hashes": [
-                "sha256:1e04783293117109189ad7048f3eedbe21caff0e39bee5e2d47a93dd790fefac",
-                "sha256:38834fd7f0732582a20d4eb4674c8d5c088e464d14d1b3f8c176e389aecaa4ef"
+                "sha256:022132c17069dde03c5c5904e2ae1b9bd68d5059cbc5a8dffc5c1537a1b71cb5",
+                "sha256:8ba40ab623da35db72715fc87fe7dccb7fc272ced92581fe31db2d4dbe7ad761"
             ],
             "index": "pypi",
-            "version": "==3.6.6"
+            "version": "==3.7.5"
         },
         "progressbar2": {
             "hashes": [
