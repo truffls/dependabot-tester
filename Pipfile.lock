@@ -3432,11 +3432,12 @@
         },
         "pyphen": {
             "hashes": [
-                "sha256:2c006b3ddf072c9571ab97606d9ab3c26a92eaced4c0d59fd1d26988f308f413",
-                "sha256:b4a4c6d7d5654b698b5fc68123148bb799b3debe0175d1d5dc3edfe93066fc4c"
+                "sha256:1d13acd1ce37a384d7612954ae6c7801bb4c5316da0e2b937b2127ba702a3da4",
+                "sha256:dad0b2e4aa80f6d70bf06711b2da36c47a756b933c1d0c4cbbab40f643a5958c"
             ],
-            "markers": "python_version >= '3.8'",
-            "version": "==0.16.0"
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==0.17.0"
         },
         "pysolr": {
             "hashes": [
