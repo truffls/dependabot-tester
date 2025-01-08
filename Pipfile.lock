@@ -3831,11 +3831,12 @@
         },
         "s3transfer": {
             "hashes": [
-                "sha256:0711534e9356d3cc692fdde846b4a1e4b0cb6519971860796e6bc4c7aea00ef6",
-                "sha256:eca1c20de70a39daee580aef4986996620f365c4e0fda6a86100231d62f1bf69"
+                "sha256:244a76a24355363a68164241438de1b72f8781664920260c48465896b712a41e",
+                "sha256:29edc09801743c21eb5ecbc617a152df41d3c287f67b615f73e5f750583666a7"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==0.10.2"
+            "version": "==0.10.4"
         },
         "salesforce-bulk": {
             "hashes": [
