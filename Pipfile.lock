@@ -2049,7 +2049,6 @@
                 "sha256:28009937d8031054830160fce6d409ed342816b543597cece116d966c6d99e15",
                 "sha256:4cd1aa0f43ca76f4a6c6c0292a85f40b35ec2e43e315b59f06e6d32171a953e6"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.7'",
             "version": "==0.7.2"
         },
@@ -4311,11 +4310,12 @@
         },
         "zeep": {
             "hashes": [
-                "sha256:6754feb4c34a4b6d65fbc359252bf6654dcce3937bf1d95aae4402a60a8f5939",
-                "sha256:72093acfdb1d8360ed400869b73fbf1882b95c4287f798084c42ee0c1ff0e425"
+                "sha256:a637aa7eedb6330bb27e8c94c5233ddf23553904323adf9398f8cf5025acb216",
+                "sha256:f45385e9e1b09d5550e0f51ab9fa7c6842713cab7194139372fd82a99c56a06e"
             ],
-            "markers": "python_version >= '3.7'",
-            "version": "==4.2.1"
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==4.3.1"
         },
         "zopfli": {
             "hashes": [
