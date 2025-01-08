@@ -24,7 +24,6 @@
                 "sha256:a3041333c565bff9d63b4468bee4944f2d81cff63a45b10e5cc652f3837f9cc2",
                 "sha256:aedccd5368a64401233ef9f27983d3d3cb6a507a6ca981f5ec1df014c00e260e"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==2.17.0"
         },
@@ -33,7 +32,6 @@
                 "sha256:5fdd7d87889c63183afc18ce9271f9b0a7d32c2303e394468dd45d514a757745",
                 "sha256:a980909d50efcd44795c4afeca523296716d50cd756ddca6af8c65b996e27de8"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==2.4.4"
         },
@@ -1526,7 +1524,6 @@
                 "sha256:fd74520371c3c4175142d02a976aee0b4cb4a7cc912a60586ffd8d5929979b30",
                 "sha256:feeb64bc9bcc6b45c6311c9e9b99406660a9c05ca8a5b30d14a78555088b0b3a"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==1.5.0"
         },
@@ -1535,7 +1532,6 @@
                 "sha256:670700c977ed2fb51e0d9f9253177ed20cbde4a3e5c0283cc5385b5870c8533f",
                 "sha256:b520aed47ad9804237ff878b504267a3b0b441e97508bd6d2d8774e3db85cee2"
             ],
-            "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==2024.12.0"
         },
@@ -3822,12 +3818,12 @@
         },
         "s3fs": {
             "hashes": [
-                "sha256:3a7dc7acae4358af8e8dfb693e82a8477f9f2c847de5d44cf65fee75752eaca3",
-                "sha256:6493705abb50374d6b7994f9616d27adbdd8a219c8635100bdc286382efd91f5"
+                "sha256:1b0f3a8f5946cca5ba29871d6792ab1e4528ed762327d8aefafc81b73b99fd56",
+                "sha256:d8665549f9d1de083151582437a2f10d5f3b3227c1f8e67a2b0b730db813e005"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
-            "version": "==2024.9.0"
+            "markers": "python_version >= '3.9'",
+            "version": "==2024.12.0"
         },
         "s3transfer": {
             "hashes": [
