@@ -1247,12 +1247,11 @@
         },
         "django-viewflow": {
             "hashes": [
-                "sha256:38c8493dc25efc49df2003777b951980b773b8bb8e31926dd591e9fe0e8acb91",
-                "sha256:c81a91d55e235c9bd75dc26bbc26dcfdda5f21eb97a381537040d9b7b07221cc"
+                "sha256:4a43cbc3f0aac694cefbb44a2ad6c2415c3e6779114b1975f4f28e0c8db494ff"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==2.2.7"
+            "version": "==2.2.9"
         },
         "djangorestframework": {
             "hashes": [
