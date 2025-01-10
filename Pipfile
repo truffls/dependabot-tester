@@ -126,7 +126,7 @@ pytest-django = "*"
 pytest-profiling = "*"
 isort = "*"
 black = "*"
-fcm-django = "==2.2.0rc0"
+fcm-django = "==2.2.1"
 # https://github.com/microsoft/azuredatastudio/issues/24436
 traitlets = "==5.9.0"
 pymupdf = "*"
