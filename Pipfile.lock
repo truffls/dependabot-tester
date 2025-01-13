@@ -1013,10 +1013,11 @@
         },
         "django-deprecate-fields": {
             "hashes": [
-                "sha256:ab2edaf4a6a09eefdd94740b05630d89fa58ec54461842e3a51fe129077c3942"
+                "sha256:45aece7b831dec2b7d0630d05bbd9a8d23f3249625f6145aa6cdd41362d92d03",
+                "sha256:adc21ecabec52abf6faa80e68597e5fe7d020e9a61c0f7402ebdf401d64e8c50"
             ],
             "index": "pypi",
-            "version": "==0.1.2"
+            "version": "==0.2.1"
         },
         "django-extensions": {
             "hashes": [
