@@ -2997,11 +2997,11 @@
         },
         "posthog": {
             "hashes": [
-                "sha256:022132c17069dde03c5c5904e2ae1b9bd68d5059cbc5a8dffc5c1537a1b71cb5",
-                "sha256:8ba40ab623da35db72715fc87fe7dccb7fc272ced92581fe31db2d4dbe7ad761"
+                "sha256:263df03ea312d4b47a3d5ea393fdb22ff2ed78140d5ce9af9dd0618ae245a44b",
+                "sha256:7215c4d7649b0c87905b42f460403311564996d776ab48d39852f46539a50f22"
             ],
             "index": "pypi",
-            "version": "==3.7.5"
+            "version": "==3.8.3"
         },
         "progressbar2": {
             "hashes": [
@@ -4044,7 +4044,7 @@
                 "sha256:1cee9ad369867bfdbbb48b7dd50374c0967a0bb7710050facf0dd6911440e3df",
                 "sha256:f8c5449b3cf0861679ce7e0503c7b44b5ec981bec0d1d3795a07f1ba96f0204d"
             ],
-            "markers": "python_version >= '3.9'",
+            "markers": "python_version >= '3.10'",
             "version": "==2.3.0"
         },
         "uwsgi": {
