@@ -5030,11 +5030,12 @@
         },
         "jupyter-events": {
             "hashes": [
-                "sha256:36399b41ce1ca45fe8b8271067d6a140ffa54cec4028e95491c93b78a855cacf",
-                "sha256:c0bc56a37aac29c1fbc3bcfbddb8c8c49533f9cf11f1c4e6adadba936574ab90"
+                "sha256:6464b2fa5ad10451c3d35fabc75eab39556ae1e2853ad0c0cc31b656731a97fb",
+                "sha256:fc3fce98865f6784c9cd0a56a20644fc6098f21c8c33834a8d9fe383c17e554b"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.9'",
-            "version": "==0.11.0"
+            "version": "==0.12.0"
         },
         "jupyter-lsp": {
             "hashes": [
