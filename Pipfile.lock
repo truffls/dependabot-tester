@@ -4441,11 +4441,12 @@
         },
         "async-lru": {
             "hashes": [
-                "sha256:b8a59a5df60805ff63220b2a0c5b5393da5521b113cd5465a44eb037d81a5627",
-                "sha256:ff02944ce3c288c5be660c42dbcca0742b32c3b279d6dceda655190240b99224"
+                "sha256:481d52ccdd27275f42c43a928b4a50c3bfb2d67af4e78b170e3e0bb39c66e5bb",
+                "sha256:ab95404d8d2605310d345932697371a5f40def0487c03d6d0ad9138de52c9943"
             ],
-            "markers": "python_version >= '3.8'",
-            "version": "==2.0.4"
+            "index": "pypi",
+            "markers": "python_version >= '3.9'",
+            "version": "==2.0.5"
         },
         "attrs": {
             "hashes": [
