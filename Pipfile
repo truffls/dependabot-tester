@@ -135,7 +135,7 @@ django-sql-utils = "*"
 
 [dev-packages]
 jupyterlab = "*"
-notebook = "==7.4.1"
+notebook = "==7.4.2"
 matplotlib = "*"
 scikit-learn = "*"
 seaborn = "*"
