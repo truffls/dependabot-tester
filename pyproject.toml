@@ -1,0 +1,188 @@
+[project]
+name = "unchained"
+version = "0.0.1"
+requires-python = "~=3.13.0"
+readme = "README.md"
+dependencies = [
+    "aiobotocore[boto3]",
+    "s3fs>=2022.3.0", # https://github.com/fsspec/s3fs/issues/357#issuecomment-840702828
+    "django-storages",
+    "pandas",
+    "packaging",
+    "beautifulsoup4",
+    "django-autocomplete-light",
+    "dj-database-url",
+    "django-clone",
+    "django-mysql",
+    "django-cors-headers",
+    "django-filter==24.3", # Downgraded from 25.1: removal of built-in API schema generation affects drf-yasg’s automatic documentation of django-filter query parameters
+    "django-formtools",
+    "django-extensions",
+    "django-test-migrations",
+    "djangorestframework-csv",
+    "djangorestframework-gis",
+    "drf-extensions",
+    "docutils",
+    "ijson",
+    "lxml",
+    "xmltodict",
+    "jsonpath-rw-ext",
+    "parsedatetime",
+    "python-dateutil",
+    "python-logstash",
+    "requests",
+    "requests-oauthlib",
+    "django-model-utils",
+    "bidict",
+    "drf-nested-routers",
+    "django-viewflow",
+    "django-import-export[all]",
+    "django-countries",
+    "django-object-actions",
+    "django-admin-numeric-filter",
+    "django-admin-rangefilter",
+    "django-bootstrap-datepicker-plus>=5.0.4",
+    "django-ipware",
+    "jsonschema",
+    "sentry-sdk[django, celery]",
+    "djrill",
+    "piexif",
+    "jsonfield",
+    "unicodecsv",
+    "django-versatileimagefield",
+    "django-select2",
+    "django-colorful",
+    "django-timezone-field>=6.1.0",
+    "suds-py3",
+    "semver",
+    "phonenumbers",
+    "python-magic",
+    "image",
+    "progressbar2",
+    "model-bakery",
+    "django-annoying",
+    "django-safedelete",
+    "django-notifications-hq",
+    "chevron",
+    "google-auth",
+    "django-modeltranslation",
+    "celery[sqs]",
+    "kombu",
+    "django-celery-beat",
+    "django-money",
+    "djangorestframework",
+    "django-migration-linter",
+    "django-deprecate-fields",
+    "social-auth-core==4.5.4",
+    "social-auth-app-django",
+    "django-crispy-forms",
+    "crispy-bootstrap4",
+    "crispy-bootstrap3",
+    "django-tables2",
+    "django-extra-views",
+    "django-map-widgets",
+    "pysolr",
+    "django-settings-export",
+    "simple-salesforce",
+    "python-box",
+    "django-basicauth",
+    "django-debug-toolbar",
+    "coverage",
+    "mock",
+    "responses",
+    "tblib",
+    "bpython",
+    "ipdb",
+    "werkzeug",
+    "drf-yasg",
+    "guess_language-spirit",
+    "weasyprint>=65.1",
+    "uWSGI",
+    "mysqlclient",
+    "Django>=5.0,<5.1",
+    "service_identity",
+    "Faker",
+    "Unidecode",
+    "openpyxl",
+    "gender-guesser",
+    "gspread",
+    "django-simple-history",
+    "playwright",
+    "furl",
+    "openai",
+    "html2text",
+    "django-nested-admin",
+    "coreapi",
+    "legacy-cgi",
+    "coreschema",
+    "pymemcache",
+    "posthog",
+    "django-cache-machine",
+    "django-fancy-cache",
+    "fcm-django",
+    "traitlets==5.14.3", # https://github.com/microsoft/azuredatastudio/issues/24436
+    "pymupdf",
+    "django-sql-utils",
+    "mrml",
+    "natsort",
+]
+
+[dependency-groups]
+dev = ["pytest", "pytest-django", "pytest-profiling", "ruff>=0.12.7"]
+data = [
+    "jupyterlab",
+    "notebook==7.3.2",
+    "matplotlib",
+    "scikit-learn",
+    "seaborn",
+    "pyOpenSSL",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+
+[tool.ruff]
+line-length = 160
+exclude = [".eggs", ".git", "migrations"]
+
+[tool.ruff.lint]
+ignore = [
+    "F403", # 'from module import *' used; unable to detect undefined names
+    "F405", # Name may be undefined, or defined from star imports: module
+    "E722", # do not use bare 'except'
+]
+unfixable = [
+    "Q000", # Single quotes found but double quotes preferred
+    "Q001", # Single quote multiline found but double quotes preferred
+]
+
+[tool.ruff.lint.isort]
+force-single-line = false
+force-wrap-aliases = false
+split-on-trailing-comma = true
+combine-as-imports = true
+
+[tool.ruff.format]
+indent-style = "space"
+quote-style = "preserve"
+line-ending = "lf"
+skip-magic-trailing-comma = false
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "truffls.settings.test"
+python_files = [
+    "tests.py",
+    "test_*.py",
+    "tests_*.py",
+    "*_tests.py",
+    "*test*.py",
+]
+
+# https://pytest-django.readthedocs.io/en/latest/database.html#example-work-flow-with-reuse-db-and-create-db
+addopts = ["--durations=20", "--profile"]
+
+# add `TEST_MIGRATIONS=1` to your `.env` to enable interactive migration tests in vscode
