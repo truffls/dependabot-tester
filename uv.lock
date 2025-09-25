@@ -1207,14 +1207,14 @@ wheels = [
 
 [[package]]
 name = "django-mysql"
-version = "4.17.0"
+version = "4.19.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/62/00/5f5e723193db2b31abcf130303b0c9584ee70b69502f3ce146bff3c314c8/django_mysql-4.17.0.tar.gz", hash = "sha256:201efe2f9128777159b019cff8a6c1f35e891c668bb3b98b45c616f25ed5cb5b", size = 43081, upload-time = "2025-05-13T21:45:44.264Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1d/17/1c8c6a5fbaf4b6c57aa97ddad2130f1fb1bdff4c4f31c597640b8b924d2c/django_mysql-4.19.0.tar.gz", hash = "sha256:e75df60933b55ae24015b3223b9b04587769aeee2f42f8ec23251ff41c9147a8", size = 43280, upload-time = "2025-09-18T11:18:46.405Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b5/dd/94da92d5d44f7a132c92b18954ec61c6608e65086602e2f0e52985ce47c9/django_mysql-4.17.0-py3-none-any.whl", hash = "sha256:d59545cfbd55edfa04c99db2e90e9f63c786b16da4c7b8fd0425f5d032dde149", size = 55335, upload-time = "2025-05-13T21:45:42.384Z" },
+    { url = "https://files.pythonhosted.org/packages/f0/5f/029005104050faf27e1ea122d11a1bd2b933a1187a71803d1630d2641af3/django_mysql-4.19.0-py3-none-any.whl", hash = "sha256:9a8344e7c1bac2d504a53abc85dcc4b2110e9065577ed53f7da34730374ad67f", size = 55133, upload-time = "2025-09-18T11:18:45.178Z" },
 ]
 
 [[package]]
