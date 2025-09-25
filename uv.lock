@@ -1379,15 +1379,15 @@ wheels = [
 
 [[package]]
 name = "django-viewflow"
-version = "2.2.12"
+version = "2.2.13"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
     { name = "django-filter" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f9/d3/cbcd9abc276f9fc2666757a8dee7d363edc301c374a957420e874718977a/django_viewflow-2.2.12.tar.gz", hash = "sha256:5d37fab5aeee567efc9c5944f2be8019a0d4159e40499110eba09071e5c501cf", size = 15450607, upload-time = "2025-07-25T06:00:15.003Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/8e/0f/1995d386420d9f08bd0f6262a899bc0d5fa6a529a39d99e6928b130112ae/django_viewflow-2.2.13.tar.gz", hash = "sha256:dfaf0ab0d1d741036469c561a1409283ff31978675d08a3c8fe077473e1d5532", size = 15450750, upload-time = "2025-09-24T09:12:52.887Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f8/33/399325ca74077909c64fdefc005e5e925dc7a59b3341eeab526b1efba28c/django_viewflow-2.2.12-py3-none-any.whl", hash = "sha256:24a1bb8109b68b44498852a88884748dd94e694ce5e45ea5317d68a1ba1f8730", size = 15616435, upload-time = "2025-07-25T06:00:02.85Z" },
+    { url = "https://files.pythonhosted.org/packages/b9/b8/b75520c628eee3a8f4ebb264cb597640daae00548fd91cbc95ee23556c0f/django_viewflow-2.2.13-py3-none-any.whl", hash = "sha256:27e6ddf8f341ed910bab9fdeb110be7d19fb21e545247a130773de0370d6c3f6", size = 15616533, upload-time = "2025-09-24T09:11:47.088Z" },
 ]
 
 [[package]]
